@@ -58,19 +58,23 @@ a{
 
 body table{
     background-color: #97b0c2 ;
+    
 }
 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+ 
 
   }
   th, td {
     padding: 8px;
 }
 
-
-
+footer {
+    padding: 30px;
+    background-color: #718fa4;
+}
 
 
   

@@ -3,19 +3,23 @@
     padding: 10px
 
 }
-#nav{
-    margin:auto
-}
+
 ul a{
     padding-left: 120px;
-    margin: auto;
+   
 }
 body nav ul{
     display:block;
-    text-align:center;
+    text-align:left;
     padding:3px,3px;
     text-decoration:line;
+   
 }
+nav a{
+    color: aliceblue;
+}
+
+
 body nav ul{
 list-style-type:none ;
     margin:auto;
@@ -23,6 +27,11 @@ list-style-type:none ;
     overflow: hidden;
     background-color: #718fa4;
   }
+
+ footer{
+    padding: 30px;
+    background-color: #718fa4;
+ }
 
 
 
