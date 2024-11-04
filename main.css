@@ -1,0 +1,47 @@
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: rgb(54, 55, 71);
+}
+h3{
+    color:rgb(54, 55, 71)
+}
+
+body nav ul {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px;
+  }
+  body nav ul {
+    display:flex;
+    flex-direction:row;
+    gap: 20px
+  }
+
+  body nav ul {
+    max-width: max-content;
+    margin: auto;
+  }
+
+section {
+max-width:max-content;
+margin:auto
+  }
+
+h1{
+    max-width: max-content;
+    margin: auto;
+}
+footer {
+    max-width: fit-content;
+    margin: auto;
+}
+
+
+
+
+  
+
+  
