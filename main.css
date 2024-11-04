@@ -29,6 +29,9 @@ section {
 max-width:max-content;
 margin:auto
   }
+ section {
+    font-family:Arial, Helvetica, sans-serif
+ }
 
 h1{
     max-width: max-content;
