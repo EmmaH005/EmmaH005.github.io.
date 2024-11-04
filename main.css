@@ -1,5 +1,7 @@
 
-
+header {
+    background-color: rgb(201, 210, 219);
+}
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -9,25 +11,43 @@ h1 {
 h3{
     color:rgb(54, 55, 71)
 }
+h3{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 body nav ul {
-    border: 2px solid rgb(255, 255, 255);
-    padding: 8px;
+    list-style-type:none ;
+    margin:auto;
+    padding:20px;
+    overflow: hidden;
+    background-color: #718fa4;
   }
-  body nav ul {
-    display:flex;
-    flex-direction:row;
-    gap: 20px
-  }
+  
+a{
+    float:inline-start;
+    padding-left: 120px;
 
-  body nav ul {
-    max-width: max-content;
-    margin: auto;
   }
+  
+a{
+    display:block;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding:3px,3px;
+    text-decoration:line;
+  }
+  
+  
+  
+
+
+  
 
 section {
 max-width:max-content;
 margin:auto
+
   }
  section {
     font-family:Arial, Helvetica, sans-serif
@@ -40,7 +60,25 @@ h1{
 footer {
     max-width: fit-content;
     margin: auto;
+    padding: 40px;
 }
+body{
+    margin:auto;
+    max-width:max-content
+}
+body table{
+    background-color: #97b0c2 ;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+  }
+  th, td {
+    padding: 8px;
+}
+
 
 
 
