@@ -1,0 +1,26 @@
+body nav ul {
+    list-style-type:none ;
+    margin:auto;
+    padding:20px;
+    overflow: hidden;
+    background-color: #718fa4;
+  }
+  
+a{
+    float:inline-start;
+    padding-left: 120px;
+
+  }
+  
+a{
+    display:block;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding:3px,3px;
+    text-decoration:line;
+  }
+
+  #about {
+    background-color: #97b0c2;
+    padding: 10px
+  }
