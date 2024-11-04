@@ -1,0 +1,28 @@
+#nav{
+    background-color: #718fa4;
+    padding: 10px
+
+}
+#nav{
+    margin:auto
+}
+ul a{
+    padding-left: 120px;
+    margin: auto;
+}
+body nav ul{
+    display:block;
+    text-align:center;
+    padding:3px,3px;
+    text-decoration:line;
+}
+body nav ul{
+list-style-type:none ;
+    margin:auto;
+    padding:20px;
+    overflow: hidden;
+    background-color: #718fa4;
+  }
+
+
+

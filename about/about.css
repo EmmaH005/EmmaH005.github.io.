@@ -24,3 +24,10 @@ a{
     background-color: #97b0c2;
     padding: 10px
   }
+.even{
+    color: #140a63;
+}
+.odd{
+    color: #526f91;
+}
+

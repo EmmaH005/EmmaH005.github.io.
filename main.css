@@ -38,34 +38,24 @@ a{
     text-decoration:line;
   }
   
-  
-  
-
-
-  
-
-section {
-max-width:max-content;
-margin:auto
-
+  h1{
+    padding: 20px
   }
+  
+  
+
+
+  
+
+
+
+  
  section {
     font-family:Arial, Helvetica, sans-serif
  }
 
-h1{
-    max-width: max-content;
-    margin: auto;
-}
-footer {
-    max-width: fit-content;
-    margin: auto;
-    padding: 40px;
-}
-body{
-    margin:auto;
-    max-width:max-content
-}
+
+
 body table{
     background-color: #97b0c2 ;
 }
