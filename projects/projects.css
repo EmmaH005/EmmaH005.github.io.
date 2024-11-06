@@ -1,32 +1,33 @@
-#nav{
-    background-color: #718fa4;
-    padding: 10px
+ul {
+    list-style-type:none ;
+    margin:auto;
+    padding:20px;
+    overflow: hidden;
+    background-color: #718fa4; }
+  
+a{
+    float:inline-start;
+    padding-left: 120px;}
+  
+a{
+    display:block;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding:3px,3px;
+    text-decoration:line;}
+  
 
+h1{
+background-color:rgb(201, 210, 219) ;
+padding: 30px;
 }
 
 ul a{
     padding-left: 120px;
    
 }
-body nav ul{
-    display:block;
-    text-align:left;
-    padding:3px,3px;
-    text-decoration:line;
-   
-}
-nav a{
-    color: aliceblue;
-}
-
-
-body nav ul{
-list-style-type:none ;
-    margin:auto;
-    padding:20px;
-    overflow: hidden;
-    background-color: #718fa4;
-  }
+ 
+  
 
  footer{
     padding: 30px;
