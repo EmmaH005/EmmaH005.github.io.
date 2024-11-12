@@ -1,31 +1,32 @@
 #heading {
-    list-style-type:none ;
     margin:auto;
-    padding:20px;
     overflow: hidden;
-    background-color: #7c98ac; }
+    background-color: #0d3654; }
+  
   
 a{
-    float:inline-start;
-    padding-left: 120px;}
-  
-a{
-    display:block;
     color: rgb(255, 255, 255);
-    text-align:center;
-    padding:3px,3px;
-    text-decoration:line;}
-  
+    text-decoration:line;
+    display: block;}
+    
+
+    a:hover{
+        background-color: #86b5ee;
+      }
 
 #heading {
 background-color: #97b0c2;
-padding: 20px;
+
 }
 
-ul a{
-    padding-left: 120px;
-   
+h1{
+    padding-left: 35px;
+    padding-bottom:30px;
 }
+
+section {
+    font-family:Arial, Helvetica, sans-serif}
+
  
   
 
@@ -34,5 +35,10 @@ ul a{
     background-color: #718fa4;
  }
 
-
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
 
