@@ -15,6 +15,8 @@ h3{
         color: black;
     }
 
+
+    
 /*Navigation*/
 ul {
     
@@ -40,6 +42,8 @@ a{
  section {
     font-family:Arial, Helvetica, sans-serif}
 
+div {
+    font-family:Arial, Helvetica, sans-serif}
 
 
 
@@ -57,10 +61,23 @@ table, th, td {
 
     /*image*/
     img {
-        border-radius: 20px;
+        border-style:solid;
+        
     
+    /*column*/
     }
+    .column {
+        position:absolute;
+        top: 263px;
+        right: 10px;
+        width: 18%;
+        max-height: 70px;
+        text-align:left;
+        padding-left: 90px;
+        padding-right: 80px;
 
+        
+      }
 
   /*Footer*/
 footer {
