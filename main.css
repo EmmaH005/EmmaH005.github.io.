@@ -75,8 +75,13 @@ table, th, td {
         text-align:left;
         padding-left: 90px;
         padding-right: 80px;
+      }
 
-        
+      button {
+        background-color: #db445b;
+        border-radius: 10px;
+        border-color:#db445b ;
+        padding: 10px;
       }
 
   /*Footer*/
