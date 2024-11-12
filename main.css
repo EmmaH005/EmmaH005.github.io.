@@ -1,4 +1,4 @@
-
+/*Heading colour*/
 header {
     background-color: hsl(209, 24%, 27%);} 
 
@@ -14,6 +14,8 @@ h3{
     h4{
         color: black;
     }
+
+/*Navigation*/
 ul {
     
     margin:auto;
@@ -21,7 +23,6 @@ ul {
     overflow: hidden;
     background-color: #718fa4; }
   
-
   
 a{
     display:block;
@@ -29,18 +30,23 @@ a{
     text-decoration:line;}
   
   h1{
-    padding: 20px}
+    padding: 30px}
   
     a:hover{
         background-color: #7abfef;
       }
-  
+
+  /*Font*/
  section {
     font-family:Arial, Helvetica, sans-serif}
 
 
+
+
+/*table*/
  table{
-    background-color: #97b0c2 ;}
+    background-color: #97b0c2;
+}
 
 table, th, td {
     border: 1px solid black;
@@ -49,6 +55,14 @@ table, th, td {
     th, td {
     padding: 8px;}
 
+    /*image*/
+    img {
+        border-radius: 20px;
+    
+    }
+
+
+  /*Footer*/
 footer {
     padding: 30px;
     background-color: #718fa4;}

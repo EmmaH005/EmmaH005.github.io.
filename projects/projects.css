@@ -1,35 +1,47 @@
-#heading {
+/* Header */
+ header{
     margin:auto;
     overflow: hidden;
-    background-color: #0d3654; }
-  
+    padding: 20px;
+    background-color:hsl(209, 24%, 27%);
+    
+ }
+  h1{
+    color: white;
+  }
   
 a{
     color: rgb(255, 255, 255);
     text-decoration:line;
     display: block;}
     
+    
 
     a:hover{
         background-color: #86b5ee;
       }
 
-#heading {
+/* navigation*/
+nav {
 background-color: #97b0c2;
+}
+ul {
+    padding: 20px;
 
 }
 
-h1{
-    padding-left: 35px;
-    padding-bottom:30px;
+
+
+
+/* Font*/
+header {
+    font-family:Arial, Helvetica, sans-serif;
+    color:white
 }
 
-section {
-    font-family:Arial, Helvetica, sans-serif}
 
  
-  
-
+/*Footer*/
  footer{
     padding: 30px;
     background-color: #718fa4;
