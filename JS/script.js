@@ -18,7 +18,17 @@ const greeting = () => {
     } else {
         alert(`Good evening!`);
     }
+   
+    btn.addEventListener("mouseover", function() {
+        this.textContent = "Click!";
+      })
+      btn.addEventListener("mouseout", function() {
+        this.textContent = "Hi, I'm Emma.";
+      })
 }
+
+
+
 
 // dynamic year
 const fYear = document.getElementById("footerYear");
@@ -26,5 +36,10 @@ const d = new Date();
 fYear.innerText = d.getFullYear();
 
 console.log(d);
+
+
+// Get the button element
+
+
 
 
