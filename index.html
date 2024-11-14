@@ -29,13 +29,12 @@
 
      
  <section>
-         <img src="./Image/Headshot.JPG " alt=Image of Emma Hemphill, blonde Hair and blue eyes against a blue backdrop.
-         width="315" height="185">
-        </header>
- </section>
-
+ <img src="./Image/Headshot.JPG " alt=Image of Emma Hemphill, blonde Hair and blue eyes against a blue backdrop.  width="315" height="185">
+        
  
- <div class="column" style="background-color:rgb(255, 255, 255);">
+
+ <section>
+ <div class="column">
   <h2>I mainly design tattoos for commission,</h2>
   <p>
     <h4>but have also done</h4>
@@ -51,9 +50,11 @@
 
      </p>
 </div>
-   
+  </section>
+
+<section> 
 <button id="btn">Hi! I'm Emma.</button>
-        </section>
+</section>
 
  <!--Contact Table-->
  
@@ -91,6 +92,23 @@
         <p>&copy; Emma Hemphill <span id="footeryear">2024</span>
         All rights Reserved</p>
     </footer>
+
+    <!DOCTYPE html>
+    <html data-theme="light">
+    <head>
+      <title>Time-Based Theme Example</title>
+      <script>
+        // Get the date
+        const date = new Date();
+        const hour = date.getHours();
+    
+        // Change data-theme to dark based on the time of day
+        if (hour < 6 || hour >= 18) 
+          document.documentElement.dataset.theme = 'dark';
+      </script>
+    </head>
+    
+
 
  </body>
 </html>
