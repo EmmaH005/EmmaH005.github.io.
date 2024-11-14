@@ -9,7 +9,13 @@ btn.addEventListener("click", () => {
     greeting();
     console.log("button clicked");
 });
-
+btn.addEventListener("mouseover", function() {
+    this.textContent = "Click!";
+  })
+  btn.addEventListener("mouseout", function() {
+    this.textContent = "Hi, I'm Emma.";
+  })
+  
 const greeting = () => {
     if (d.getHours() <= 11) {
         alert(`Good morning!`);
@@ -19,12 +25,7 @@ const greeting = () => {
         alert(`Good evening!`);
     }
    
-    btn.addEventListener("mouseover", function() {
-        this.textContent = "Click!";
-      })
-      btn.addEventListener("mouseout", function() {
-        this.textContent = "Hi, I'm Emma.";
-      })
+    
 }
 
 
