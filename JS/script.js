@@ -1,8 +1,11 @@
+// dynamic year
+const fYear = document.getElementById("footerYear");
+const d = new Date();
+fYear.innerText = d.getFullYear();
+// fYear.textContent = d;
+console.log(d);
 
-
-
-// Dynamic Greeting Button
-window.onload = function () {
+// Alert Button
 const btn = document.getElementById("btn");
 btn.addEventListener("click", () => {
     greeting();
@@ -17,14 +20,5 @@ const greeting = () => {
     } else {
         alert(`Good evening!`);
     }
-}}
-
-
-        
-
-// dynamic year
- {const fYear = document.getElementById("footerYear");
-const d = new Date();
-fYear.innerText = d.getFullYear();
-console.log(d); }
+}
 
