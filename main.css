@@ -67,7 +67,7 @@ table, th, td {
     
     /*column*/
     }
- .column {
+    .column {
         position:absolute;
         top: 263px;
         right: 10px;
@@ -77,15 +77,12 @@ table, th, td {
         padding-left: 90px;
         padding-right: 80px;
       }
-      /*Btn light theme*/
 button {
         background-color: #db445b;
         border-radius: 10px;
         border-color:#db445b ;
         padding: 10px;
       }
-
-     
 
   /*Footer*/
 footer {

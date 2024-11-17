@@ -1,5 +1,8 @@
 
 
+
+
+
 // Dynamic Greeting Button
 const btn = document.getElementById("btn");
 btn.addEventListener("click", () => {
@@ -21,16 +24,22 @@ const greeting = () => {
     } else {
         alert(`Good evening!`);
     }
+   
+    
 }
 
 
 
+
 // dynamic year
- {const fYear = document.getElementById("footerYear");
+const fYear = document.getElementById("footerYear");
 const d = new Date();
 fYear.innerText = d.getFullYear();
-console.log(d); }
 
+console.log(d);
+
+
+// Get the button element
 
 
 
