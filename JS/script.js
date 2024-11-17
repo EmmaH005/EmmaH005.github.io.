@@ -1,17 +1,19 @@
-// dynamic year
-const fYear = document.getElementById("footerYear");
-const d = new Date();
-fYear.innerText = d.getFullYear();
-// fYear.textContent = d;
-console.log(d);
 
 // Alert Button
 const btn = document.getElementById("btn");
-btn.addEventListener("click", () => {
+
+
+btn.addEventListener("mouseover", function() {
+    this.textContent = "Click!";
+  })
+  btn.addEventListener("mouseout", function() {
+    this.textContent = "Hi, I'm Emma.";
+  })
+  
+  btn.addEventListener("click", () => {
     greeting();
     console.log("button clicked");
 });
-
 const greeting = () => {
     if (d.getHours() <= 11) {
         alert(`Good morning!`);
@@ -22,3 +24,10 @@ const greeting = () => {
     }
 }
 
+
+// dynamic year
+const fYear = document.getElementById("footerYear");
+const d = new Date();
+fYear.innerText = d.getFullYear();
+// fYear.textContent = d;
+console.log(d);
