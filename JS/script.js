@@ -1,7 +1,10 @@
 
-// Alert Button
-const btn = document.getElementById("btn");
 
+console.log("Hello world!");
+
+
+// Dynamic Button
+const btn = document.getElementById("btn");
 
 btn.addEventListener("mouseover", function() {
     this.textContent = "Click!";
@@ -9,7 +12,7 @@ btn.addEventListener("mouseover", function() {
   btn.addEventListener("mouseout", function() {
     this.textContent = "Hi, I'm Emma.";
   })
-  
+
   btn.addEventListener("click", () => {
     greeting();
     console.log("button clicked");
@@ -25,9 +28,12 @@ const greeting = () => {
 }
 
 
+   
+
+
 // dynamic year
 const fYear = document.getElementById("footerYear");
-const d = new Date();
+const d = new Date(2024);
 fYear.innerText = d.getFullYear();
-// fYear.textContent = d;
-console.log(d);
+
+console.log(d); 
